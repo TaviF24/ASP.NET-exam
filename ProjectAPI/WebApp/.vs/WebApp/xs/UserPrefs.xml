@@ -1,17 +1,9 @@
 ﻿<Properties StartupConfiguration="{02AC991C-F1D7-49DB-9C4B-0E2D8981CF7A}|https">
-  <MonoDevelop.Ide.ItemProperties.WebApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebApp/Program.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApp/Models/Materii.cs">
     <Files>
-      <File FileName="WebApp/Program.cs" Line="19" Column="38" />
-      <File FileName="WebApp/Repositories/GenericRepository/GenericRepository.cs" Line="103" Column="54" />
-      <File FileName="WebApp/Repositories/GenericRepository/IGenericRepository.cs" Line="5" Column="42" />
-      <File FileName="WebApp/Repositories/Model1Repository/Model1Repository.cs" Line="6" Column="2" />
-      <File FileName="WebApp/Repositories/Model1Repository/IModel1Repository.cs" Line="8" Column="34" />
-      <File FileName="WebApp/Services/Model1Service/Model1Service.cs" Line="38" Column="30" />
-      <File FileName="WebApp/Services/Model1Service/IModel1Service.cs" Line="9" Column="36" />
-      <File FileName="WebApp/Controllers/Model1Controller.cs" Line="28" Column="31" />
+      <File FileName="WebApp/Controllers/Model1Controller.cs" Line="38" Column="1" />
+      <File FileName="WebApp/Models/Materii.cs" Line="7" Column="3" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -19,24 +11,21 @@
           <Node name="WebApp" expanded="True">
             <Node name="WebApp">
               <Node name="Controllers" expanded="True" />
-              <Node name="Data" expanded="True" />
-              <Node name="Helpers" expanded="True">
-                <Node name="Extensions" expanded="True" />
+              <Node name="Helpers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Materii.cs" selected="True" />
               </Node>
-              <Node name="Models" expanded="True" />
               <Node name="Repositories" expanded="True" />
-              <Node name="Services" expanded="True">
-                <Node name="Model1Service" expanded="True" />
-              </Node>
-              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.WebApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

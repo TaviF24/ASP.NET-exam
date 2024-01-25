@@ -8,12 +8,9 @@ namespace WebApp.Helpers  // ne ajuta sa nu mai stam noi sa atribuim fiecare dat
 	{
 		public MapperProfile()
 		{
-			CreateMap<Model1, Model1DTO>();
-			CreateMap<Model1DTO, Model1>();
-
-			CreateMap<Model1, Model1DTO>()	
-					.ForMember(model1dto => model1dto.FullName,
-					opts => opts.MapFrom(model1 => model1.FirstName + model1.LastName));
+			CreateMap<Materii, MateriiDTO>();
+			CreateMap<Profesori, ProfesoriDTO>();
+            CreateMap<ModelRelationDTO, ModelRelation>();
         }
 	}
 }

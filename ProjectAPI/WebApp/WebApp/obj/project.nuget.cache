@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "U1V/oorNQ358NIi0y4GrSFYEFxiZ8pSAzCw1q7lrms88OZsqa9a8nvFUpVhSb92KetCBQ8vRmcGo7I588bhYqA==",
+  "dgSpecHash": "jesZOWkeeI0ydEOTn0ez2Tjau1Q60yGJ+7Q1YY5ZAI6MkqXgpBLJxR0K/x/mjyN0SiCasmcU8g9FsjeXTNQvWA==",
   "success": true,
   "projectFilePath": "/Users/octavianfarcasi/Desktop/ASP.NET_exam/ProjectAPI/WebApp/WebApp/WebApp.csproj",
   "expectedPackageFiles": [
     "/Users/octavianfarcasi/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/octavianfarcasi/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/Users/octavianfarcasi/.nuget/packages/humanizer/2.14.1/humanizer.2.14.1.nupkg.sha512",
     "/Users/octavianfarcasi/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/octavianfarcasi/.nuget/packages/humanizer.core.af/2.14.1/humanizer.core.af.2.14.1.nupkg.sha512",

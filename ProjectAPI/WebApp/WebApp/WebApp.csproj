@@ -20,6 +20,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.15" />
     <PackageReference Include="AutoMapper" Version="12.0.1" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.11" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
   </ItemGroup>
 
   <ItemGroup>
@@ -27,21 +28,23 @@
     <None Remove="Models\" />
     <None Remove="Controllers\" />
     <None Remove="Models\Base\" />
-    <None Remove="Models\DTOs\" />
     <None Remove="Services\" />
-    <None Remove="Services\Model1Service\" />
     <None Remove="Repositories\" />
-    <None Remove="Repositories\Model1Repository\" />
+    <None Remove="Models\DTOs\" />
+    <None Remove="Services\MateriiService\" />
+    <None Remove="Services\ProfesoriService\" />
+    <None Remove="Repositories\MateriiRepository\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="Models\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\Base\" />
-    <Folder Include="Models\DTOs\" />
     <Folder Include="Services\" />
-    <Folder Include="Services\Model1Service\" />
     <Folder Include="Repositories\" />
-    <Folder Include="Repositories\Model1Repository\" />
+    <Folder Include="Models\DTOs\" />
+    <Folder Include="Services\MateriiService\" />
+    <Folder Include="Services\ProfesoriService\" />
+    <Folder Include="Repositories\MateriiRepository\" />
   </ItemGroup>
 </Project>
